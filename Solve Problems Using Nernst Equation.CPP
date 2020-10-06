@@ -1,10 +1,10 @@
-#include<iostream.h>
-#include<conio.h>
-#include<math.h>
+#include<iostream.h> // program written in non standard C++ format.
+#include<conio.h>    // modify include, cin, cout statements and remove getch() for compiling without errors
+#include<math.h>     // also change main function returns 0
 float calecell(float a,float b,float c,float d,float f,float g)
 {	float e;
-	e=a-(0.0591/b)*log10(pow(c,f)/pow(d,g));
-	return e;
+	e=a-(0.0591/b)*log10(pow(c,f)/pow(d,g));   // program written in 2018
+	return e;                                  // all comments added in 2020
 }
 float calcconr(float v,float a,float b,float c,float g)
 {       float e1,e2,e3,e4,e5,e6,y,z;
